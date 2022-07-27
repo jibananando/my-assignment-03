@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="container mt-5">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Pro Edu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Register</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-primary" type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- slider part -->
+    <main>
+        <section class="container mt-5">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="card text-bg-dark">
+                            <img src="images/cover/cover-1.png" class="card-img" alt="...">
+                            <div
+                                class="card-img-overlay bg-dark bg-opacity-75 d-flex justify-content-center align-items-center">
+                                <div class="d-flex flex-column justify-content-center align-items-center">
+                                    <h1>Get Started Digital Learning</h1>
+                                    <p>It is a long established fact that a reader will be distracted by the
+                                        readable
+                                        content of a page when looking at its layout</p>
+                                    <div class="btn btn-warning border border-primary bg-primary text-white ">Get
+                                        Started</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="card text-bg-dark">
+                            <img src="images/cover/cover-3.jpg" class="card-img" alt="...">
+                            <div
+                                class="card-img-overlay bg-dark bg-opacity-75 d-flex justify-content-center align-items-center">
+                                <div class="d-flex flex-column justify-content-center align-items-center">
+                                    <h1>Get Started Digital Learning</h1>
+                                    <p>It is a long established fact that a reader will be distracted by the
+                                        readable
+                                        content of a page when looking at its layout</p>
+                                    <div class="btn btn-warning border border-primary bg-primary text-white ">Get
+                                        Started</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Discover part -->
+        <section class="container mt-5">
+            <div class="row row-cols-lg-2 row-cols-md-1 g-3 row">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                <p class="card-text">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-primary">Price : 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Javascript Basic to advanced</h5>
+                                <p class="card-text">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-primary">Price : 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Fullstack Web Development</h5>
+                                <p class="card-text">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-primary">Price : 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Digital Marketing</h5>
+                                <p class="card-text">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-primary">Price : 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Photography Basic Rules</h5>
+                                <p class="card-text">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-primary">Price : 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Motion Graphics</h5>
+                                <p class="card-text">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-primary">Price : 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer area -->
+    <footer class="mt-5 text-center">
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
